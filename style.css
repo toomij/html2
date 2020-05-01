@@ -62,6 +62,7 @@ body {
 .menu-link:hover {
   color: #212121;
 }
+
 .menu-link-active {
   border-bottom: 3px solid #212121;
   color: #212121;
@@ -71,6 +72,7 @@ body {
 
 .slider-text {
   margin-top: 283px;
+  display: inline-block;
 }
 
 .slider-h2 {
@@ -132,4 +134,420 @@ body {
 
 .circle:hover {
   background-color: #212121;
+}
+
+.featured-product {
+  height: 609px;
+  background-color: #ffffff;
+}
+
+.tab-control {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.tab-control-list {
+  float: left;
+  padding-bottom: 50px;
+}
+
+.tab-control-link {
+  /* Style for "New" */
+  color: #6c6c6c;
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid #6c6c6c;
+  padding-bottom: 19px;
+  padding-left: 31px;
+}
+
+.tab-control-link-active {
+  border-bottom: 3px solid #212121;
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.tab-control-link:hover {
+  color: #212121;
+  border-bottom: 3px solid #212121;
+  ;
+}
+
+.tab-content {
+  list-style-type: none;
+}
+
+.tab-content-block {
+  display: flex;
+}
+
+.featured-content {
+  float: left;
+  padding: 0 10px;
+}
+
+.featured-product-header {
+  padding-top: 120px;
+  display: block;
+}
+
+.featured-link {}
+
+.product-content-hover {
+  width: 270px;
+  height: 270px;
+  margin: 0 10px;
+  position: relative;
+  bottom: 275px;
+  background-image: url('./img/back_hover.svg');
+}
+
+.product-content-hover:hover {
+  background-image: none;
+}
+
+.icon-hover {
+  box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+  border-radius: 24px;
+  background-color: #ffffff;
+  width: 45px;
+  height: 45px;
+  display: flow-root;
+}
+
+.hover-element {
+  position: relative;
+  top: 62px;
+  left: 110px;
+}
+
+.icon-hover-img {
+  padding-left: 17px;
+  padding-top: 12px;
+}
+
+.icon-hover-h2 {
+  position: relative;
+  top: 74px;
+  left: 40px;
+}
+
+.icon-hover-p {
+  padding-top: 100px;
+  text-align: center;
+  margin: 0 30px;
+}
+
+.explore-all {
+  float: right;
+  color: #212121;
+  color: #6c6c6c;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "explore al" */
+  color: #212121;
+  letter-spacing: 3.6px;
+}
+
+.explore-arrow {
+  width: 9px;
+  height: 12px;
+}
+
+.exlusive-block {
+  height: 683px;
+}
+
+.promo-content {
+  display: inline-block;
+}
+
+.promo-content-1 {
+  width: 683px;
+  height: 683px;
+  background-image: url('./img/promo-img.jpg');
+  float: right;
+}
+
+.promo-content-2 {
+  width: 683px;
+  height: 683px;
+  background-image: url('./img/promo-img1.jpg');
+}
+
+.promo-text {
+  margin-top: 228px;
+  padding-left: 51px;
+  display: inline-block;
+}
+
+.promo-content-tr {
+  /* Style for "exclusive" */
+  color: #1e88e5;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "exclusive" */
+  color: #1e88e5;
+  letter-spacing: 1.8px;
+  padding-bottom: 18px;
+}
+
+.promo-content-h2 {
+  /* Style for "Fishnet Ch" */
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.promo-content-p {
+  /* Style for "Seat and b" */
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 32px;
+}
+
+.trending-products-block {
+  height: 1108px;
+  margin: 0 auto;
+}
+
+.trending-product-text {
+  /* Style for "Trending P" */
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  display: block;
+  padding-top: 119px;
+}
+
+.product-list {
+  list-style-type: none;
+}
+
+.product-item {
+  float: left;
+  padding: 10px 10px;
+  width: 370px;
+  height: 370px;
+}
+
+.products-block {
+  margin: 0 auto;
+  padding: 0 98px;
+}
+
+.hot-deal-block {
+  height: 800px;
+}
+
+.slider-hot {
+  background-image: url('./img/hero-8.jpg');
+  height: 800px;
+  position: relative;
+}
+
+.slider-trending-ht {
+  /* Style for "Hot deal" */
+  color: #e53935;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "Hot deal" */
+  color: #e53935;
+  letter-spacing: 1.8px;
+}
+
+.exclusive-bottom-block {
+  height: 810px;
+  padding-top: 120px;
+}
+
+.promo-content-ex {
+  width: 570px;
+  height: 570px;
+  background-image: url('./img/product-1-lg.jpg');
+  float: left;
+  margin-left: 98px;
+}
+
+.ex-block {
+  display: block;
+}
+
+.ex-list {
+  list-style-type: none;
+  position: relative;
+  top: -17px;
+}
+
+.ex-items {
+  float: left;
+}
+
+.ex-img {
+  padding: 15px 15px;
+}
+
+.mobile-app {
+  background-image: url('./img/back-img.jpg');
+  height: 516px;
+}
+
+.promo-text-m {
+  margin-top: 180px;
+  padding-left: 51px;
+  display: inline-block;
+}
+
+.promo-content-tr-m {
+  /* Style for "mobile app" */
+  color: #6c6c6c;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "mobile app" */
+  color: #6c6c6c;
+  letter-spacing: 1.8px;
+}
+
+.promo-content-h2-m {
+  /* Style for "Find. Foll" */
+  color: #212121;
+  font-size: 62px;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 550px;
+  height: 116px;
+
+}
+
+.promo-content-p-m {
+  /* Style for "Save your" */
+color: #6c6c6c;
+font-size: 22px;
+font-weight: 300;
+padding-top: 60px;
+}
+.button-ap {
+  width: 135px;
+  height: 40px;
+  float: left;
+    display: block;
+    padding-top: 10px;
+}
+.button-gp {
+  width: 135px;
+  height: 40px;
+  display: block;
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+footer {
+  height: 384px;
+  background-image: url('./img/footer-back.svg');
+
+}
+.f-main {
+  padding-top: 120px;
+  display: flex;
+}
+.footer-h2 {
+  /* Style for "Contact Us" */
+color: #6c6c6c;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "C, ontact" */
+letter-spacing: 1.8px;
+}
+
+.footer-p {
+  /* Style for "132A Bridg" */
+color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 300;
+}
+.f-c-us {
+  float: left;
+  width: 221px;
+  height: 102px;
+}
+
+.f-us-info {
+float: left;
+padding-left: 50px;
+margin: 0 80px;
+width: 500px;
+}
+
+.f-stay {
+  width: 363px;
+  height: 36px;
+  float: right;
+}
+.f-main {
+  display: block;
+    margin: 0 98px;
+    overflow: auto;
+}
+
+.f-bottom {
+  display: block;
+}
+.f-bottom-h2 {
+  float: left;
+}
+.f-right-h2 {
+  float: right;
+}
+
+.f-tb {
+  float: left;
+  padding-right: 50px;
+  list-style-type: none;
+}
+
+.f-list {
+  padding: 5px 0;
+  color: #212121;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "Architect" */
+letter-spacing: 0.7px;
+}
+.footer-h2 {
+  padding-bottom: 25px;
+}
+.f-bottom {
+      padding-top: 69px;
+}
+.f-bottom-h2 {
+  padding-right: 58px;
+  margin: 0 98px;
+  /* Style for "© Copyrigh" */
+color: #6c6c6c;
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "©,  Copyri" */
+letter-spacing: 0.6px;
+}
+img[alt="social"] {
+  position: relative;
+    top: -10px;
 }
