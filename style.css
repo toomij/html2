@@ -274,36 +274,8 @@ li {
   letter-spacing: 0px;
 }
 
-.tab-content {
-  list-style-type: none;
-}
 
-.tab-content-block {
-  display: flex;
-}
 
-.featured-content {
-  float: left;
-  padding: 0 10px;
-}
-
-.featured-product-header {
-  padding-top: 120px;
-  display: block;
-}
-
-.product-content-hover {
-  width: 270px;
-  height: 270px;
-  margin: 0 10px;
-  position: relative;
-  bottom: 275px;
-  background-image: url('./img/back_hover.svg');
-}
-
-.product-content-hover:hover {
-  background-image: none;
-}
 
 .icon-hover {
   box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
@@ -443,26 +415,61 @@ li {
   padding: 0 98px;
 }
 
-.hot-deal-block {
-  height: 800px;
+.hotdeal-slider {
+    height: 800px;
+    background-image: url('./img/hero-8.jpg');
+    position: relative;
+}
+.hotdeal-slider-text {
+    position: absolute;
+    top: 287px;
+}
+.slider-hotdeal {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+.slider-h2 {
+    color: #212121;
+    font-size: 60px;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0px;
 }
 
-.slider-hot {
-  background-image: url('./img/hero-8.jpg');
-  height: 800px;
-  position: relative;
+.slider-content {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
 }
-
-.slider-trending-ht {
-  /* Style for "Hot deal" */
-  color: #e53935;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  /* Text style for "Hot deal" */
-  color: #e53935;
-  letter-spacing: 1.8px;
+.button {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3.6px;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background: url('img/arrow.svg') no-repeat 185px 50%;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
 }
 
 .exclusive-bottom-block {
