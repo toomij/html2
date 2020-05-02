@@ -97,16 +97,22 @@ body {
   border-radius: 23px;
   box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
   color: #212121;
+  display: inline-block;
   font-size: 18px;
   font-weight: 700;
   height: 45px;
+  letter-spacing: 3.6px;
   line-height: 45px;
   text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
   width: 221px;
-  display: inline-block;
-  text-decoration: none;
-  letter-spacing: 3.6px;
+}
+
+.button:hover {}
+
+a:active {
+  box-shadow: none;
 }
 
 .pagination {
@@ -427,58 +433,62 @@ body {
   text-transform: uppercase;
   width: 550px;
   height: 116px;
-
 }
 
 .promo-content-p-m {
   /* Style for "Save your" */
-color: #6c6c6c;
-font-size: 22px;
-font-weight: 300;
-padding-top: 60px;
+  color: #6c6c6c;
+  font-size: 22px;
+  font-weight: 300;
+  padding-top: 60px;
 }
+
 .button-ap {
   width: 135px;
   height: 40px;
   float: left;
-    display: block;
-    padding-top: 10px;
+  display: block;
+  padding-top: 10px;
 }
+
 .button-gp {
   width: 135px;
   height: 40px;
   display: block;
-    float: left;
-    padding-top: 10px;
-    padding-left: 10px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 10px;
 }
+
 footer {
   height: 384px;
   background-image: url('./img/footer-back.svg');
-
 }
+
 .f-main {
   padding-top: 120px;
   display: flex;
 }
+
 .footer-h2 {
   /* Style for "Contact Us" */
-color: #6c6c6c;
-font-family: Montserrat;
-font-size: 18px;
-font-weight: 700;
-text-transform: uppercase;
-/* Text style for "C, ontact" */
-letter-spacing: 1.8px;
+  color: #6c6c6c;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "C, ontact" */
+  letter-spacing: 1.8px;
 }
 
 .footer-p {
   /* Style for "132A Bridg" */
-color: #212121;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 300;
+  color: #212121;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
 }
+
 .f-c-us {
   float: left;
   width: 221px;
@@ -486,29 +496,36 @@ font-weight: 300;
 }
 
 .f-us-info {
-float: left;
-padding-left: 50px;
-margin: 0 80px;
-width: 500px;
+  float: left;
+  padding-left: 50px;
+  margin: 0 80px;
+  width: 500px;
 }
 
 .f-stay {
   width: 363px;
   height: 36px;
   float: right;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  right: 40px;
 }
+
 .f-main {
   display: block;
-    margin: 0 98px;
-    overflow: auto;
+  margin: 0 98px;
+  overflow: auto;
 }
 
 .f-bottom {
   display: block;
 }
+
 .f-bottom-h2 {
   float: left;
 }
+
 .f-right-h2 {
   float: right;
 }
@@ -522,32 +539,56 @@ width: 500px;
 .f-list {
   padding: 5px 0;
   color: #212121;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;
-text-transform: uppercase;
-/* Text style for "Architect" */
-letter-spacing: 0.7px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "Architect" */
+  letter-spacing: 0.7px;
 }
+
 .footer-h2 {
   padding-bottom: 25px;
 }
+
 .f-bottom {
-      padding-top: 69px;
+  padding-top: 69px;
 }
+
 .f-bottom-h2 {
   padding-right: 58px;
   margin: 0 98px;
   /* Style for "© Copyrigh" */
-color: #6c6c6c;
-font-family: Montserrat;
-font-size: 12px;
-font-weight: 700;
-text-transform: uppercase;
-/* Text style for "©,  Copyri" */
-letter-spacing: 0.6px;
+  color: #6c6c6c;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* Text style for "©,  Copyri" */
+  letter-spacing: 0.6px;
 }
+
 img[alt="social"] {
   position: relative;
-    top: -10px;
+  top: -10px;
+}
+
+.footer-mail-input {
+  border: 1px solid #d9dee1;
+  background-color: #ffffff;
+  width: 370px;
+  height: 48px;
+  color: #6c6c6c;
+  font-size: 14px;
+  font-weight: 300;
+  padding-left: 20px;
+}
+
+.footer-mail-send {
+  position: absolute;
+  top: 110px;
+  right: 2px;
+}
+.footer-p {
+  padding-bottom: 10px;
 }
