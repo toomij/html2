@@ -396,6 +396,11 @@ li {
   padding-top: 119px;
 }
 
+.trending-product-text p {
+  float: left;
+  display: contents;
+}
+
 .product-list {
   list-style-type: none;
 }
@@ -409,13 +414,14 @@ li {
 
 .products-block {
   margin: 0 auto;
-  padding: 0 98px;
+  padding: 0 0;
 }
 
 .hotdeal-slider {
   height: 800px;
   background-image: url('./img/hero-8.jpg');
   position: relative;
+  padding-left: 106px;
 }
 
 .hotdeal-slider-text {
@@ -563,21 +569,11 @@ li {
   padding-left: 10px;
 }
 
-.f-main {
+.footer {
   background-image: url('./img/footer-back.svg');
   height: 300px;
-}
-
-.one-ft {
-  padding-top: 30px;
-  padding-left: 115px;
-  display: inline-block;
-      margin-bottom: 30px;
-}
-
-.two-ft {
-  display: inline-block;
-
+  padding-top: 100px;
+  width: 1366px;
 }
 
 .footer-h2 {
@@ -599,30 +595,31 @@ li {
   font-weight: 300;
 }
 
-.f-c-us {
+.footer-contact {
   float: left;
   width: 221px;
   height: 102px;
+  margin-left: 97px;
 }
 
-.f-us-info {
+.footer-info {
   float: left;
   padding-left: 50px;
   margin: 0 80px;
-  width: 500px;
+
 }
 
 .f-list a {
   text-decoration-line: none;
   color: #212121;
 }
+
 .f-stay {
   width: 363px;
   height: 36px;
   float: right;
   display: inline-block;
   vertical-align: top;
-
 }
 
 .f-bottom {
@@ -676,6 +673,9 @@ img[alt="social"] {
   top: -10px;
 }
 
+.footer-mail {
+  margin-right: 98px;
+}
 .footer-mail-input {
   border: 1px solid #d9dee1;
   background-color: #ffffff;
@@ -686,11 +686,17 @@ img[alt="social"] {
   font-weight: 300;
   padding-left: 20px;
 }
+.footer-mail input {
+  position: relative;
+    display: block;
+    bottom: 33px;
+    left: 958px;
 
+}
 .footer-mail-send {
   position: relative;
-    bottom: 30px;
-    left: 332px;
+  bottom: 65px;
+    left: 1213px;
 }
 
 .footer-p {
